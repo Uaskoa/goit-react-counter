@@ -6,7 +6,7 @@ const valueReducer = (state = 0, { type, payload }) => {
     case actionTypes.INCREMENT:
       return state + payload;
 
-    case actionTypes.DEgitCREMENT:
+    case actionTypes.DECREMENT:
       return state - payload;
 
     default:
